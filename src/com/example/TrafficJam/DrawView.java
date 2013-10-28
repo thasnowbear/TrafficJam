@@ -8,6 +8,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -59,7 +60,9 @@ public class DrawView extends View {
 
 
         mShapes.add(new MyShape(new Rect(0,100,100,150) , Color.RED, 'V'));
-        mShapes.add(new MyShape(new Rect(200,250,250,350) , Color.BLUE, 'H'));
+        mShapes.add(new MyShape(new Rect(160,50,210,150), Color.BLUE, 'H'));
+        mShapes.add(new MyShape(new Rect(220,80,270,180) , Color.BLUE, 'H'));
+        mShapes.add(new MyShape(new Rect(200,200,300,250), Color.BLUE, 'V'));
     }
 
     protected void onDraw(Canvas canvas){
@@ -80,6 +83,10 @@ public class DrawView extends View {
                 break;
             case MotionEvent.ACTION_UP:
                 if(mMovingShape != null){
+                    if(mMovingShape.color == Color.RED)
+                        if(mMovingShape.rect.right == getHeight())
+                            Toast.makeText(getContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
+
                     mMovingShape = null;
                 }
                 break;
@@ -92,7 +99,8 @@ public class DrawView extends View {
                         for(MyShape ms: mShapes){
                         if(mMovingShape.rect.intersect(ms.rect) && mMovingShape.rect != ms.rect){
                             intersect = true;
-                            mMovingShape.rect.offsetTo(x-1,mMovingShape.rect.top);
+                            mMovingShape.rect.offsetTo(mMovingShape.rect.left - 101,mMovingShape.rect.top);
+                            mMovingShape.rect.right = mMovingShape.rect.left + 100;
                             System.out.println(mMovingShape.rect.width());
                             invalidate();
                         }
