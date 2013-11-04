@@ -92,7 +92,8 @@ public class DrawView extends View {
         String[] shapes = setup.split(",");
         mShapes.add(new MyShape(Color.RED, setup.charAt(1), Character.getNumericValue(setup.charAt(3)), Character.getNumericValue(setup.charAt(5)), Character.getNumericValue(setup.charAt(7))));
         for (int i = 1; i < shapes.length; ++i) {
-            MyShape m = new MyShape(Color.BLUE, shapes[i].charAt(2), Character.getNumericValue(shapes[i].charAt(4)), Character.getNumericValue(shapes[i].charAt(6)), Character.getNumericValue(shapes[i].charAt(8)));
+            int[]  colors= {Color.YELLOW,Color.BLUE,Color.GREEN,Color.CYAN,Color.DKGRAY,Color.GRAY};
+            MyShape m = new MyShape(colors[i%6], shapes[i].charAt(2), Character.getNumericValue(shapes[i].charAt(4)), Character.getNumericValue(shapes[i].charAt(6)), Character.getNumericValue(shapes[i].charAt(8)));
             mShapes.add(m);
         }
         invalidate();
@@ -108,6 +109,7 @@ public class DrawView extends View {
         for (MyShape ms : mShapes) {
             mPaint.setColor(ms.color);
             ms.makeRect(m_cellWidth, m_cellHeight);
+
             if (ms.rect != null)
                 canvas.drawRect(ms.rect, mPaint);
         }

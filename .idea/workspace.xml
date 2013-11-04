@@ -31,16 +31,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/draw.xml" afterPath="$PROJECT_DIR$/res/layout/draw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DrawShapes.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383570259170" ignored="false" />
     <file path="/main.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1382636934437" ignored="false" />
     <file path="/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383561787234" ignored="false" />
-    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383571499318" ignored="false" />
-    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383570808562" ignored="false" />
-    <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383567965484" ignored="false" />
+    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572233726" ignored="false" />
+    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572928736" ignored="false" />
+    <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572218438" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/BoardView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383307755857" ignored="false" />
     <file path="/Parser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383524073683" ignored="false" />
     <file path="/XMLParser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383521246449" ignored="false" />
@@ -116,7 +115,7 @@
       <file leaf-file-name="DrawActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="21" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="37" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +126,7 @@
       <file leaf-file-name="DrawView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="17" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.33707866">
+            <state line="95" column="46" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.33707866">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1966#1975#0" expanded="true" />
@@ -139,7 +138,7 @@
       <file leaf-file-name="challenge_classic40.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.8">
               <folding />
             </state>
           </provider>
@@ -166,7 +165,7 @@
       <file leaf-file-name="draw.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="808" selection-end="821" vertical-scroll-proportion="-2.8">
+            <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.2">
               <folding />
             </state>
           </provider>
@@ -759,13 +758,6 @@
         <state line="2205" column="47" selection-start="83895" selection-end="83895" vertical-scroll-proportion="0.05978261" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
@@ -783,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="808" selection-end="821" vertical-scroll-proportion="-2.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="48" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
@@ -800,9 +782,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="21" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+        <state line="37" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="17" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.33707866">
+        <state line="95" column="46" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.33707866">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1966#1975#0" expanded="true" />

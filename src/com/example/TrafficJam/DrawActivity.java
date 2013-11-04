@@ -17,11 +17,11 @@ import java.util.Observer;
  * To change this template use File | Settings | File Templates.
  */
 public class DrawActivity extends Activity {
-    DrawView d;
+    private DrawView d;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.draw);
-        d = new DrawView(getApplicationContext());
+        d = (DrawView) findViewById(R.id.drawview);
     }
 
     public void NextLevel(View view){
