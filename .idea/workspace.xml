@@ -31,15 +31,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/draw.xml" afterPath="$PROJECT_DIR$/res/layout/draw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DrawShapes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383570259170" ignored="false" />
+    <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573522278" ignored="false" />
     <file path="/main.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1382636934437" ignored="false" />
     <file path="/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383561787234" ignored="false" />
-    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572233726" ignored="false" />
-    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572928736" ignored="false" />
-    <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383572218438" ignored="false" />
+    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573791506" ignored="false" />
+    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573735095" ignored="false" />
+    <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573857851" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/BoardView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383307755857" ignored="false" />
     <file path="/Parser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383524073683" ignored="false" />
     <file path="/XMLParser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383521246449" ignored="false" />
@@ -115,18 +116,16 @@
       <file leaf-file-name="DrawActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="38" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DrawView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="46" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.33707866">
+            <state line="78" column="19" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1966#1975#0" expanded="true" />
@@ -138,7 +137,7 @@
       <file leaf-file-name="challenge_classic40.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.8">
+            <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="draw.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.2">
+            <state line="31" column="45" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.8181818">
               <folding />
             </state>
           </provider>
@@ -177,7 +176,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="610" selection-end="654" vertical-scroll-proportion="-1.6">
+            <state line="13" column="31" selection-start="610" selection-end="654" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -214,9 +213,9 @@
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java" />
-        <option value="$PROJECT_DIR$/res/layout/draw.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/draw.xml" />
       </list>
     </option>
   </component>
@@ -257,8 +256,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,10 +370,10 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -424,6 +423,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -450,19 +462,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -628,14 +627,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32478634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32367972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591414" sideWeight="0.6704" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14166667" sideWeight="0.6752137" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30598292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14166667" sideWeight="0.6940171" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30598292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -758,21 +757,14 @@
         <state line="2205" column="47" selection-start="83895" selection-end="83895" vertical-scroll-proportion="0.05978261" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+        <state line="13" column="31" selection-start="610" selection-end="654" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="610" selection-end="654" vertical-scroll-proportion="-1.6">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java">
@@ -782,40 +774,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.2">
+        <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.8">
+        <state line="45" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="38" column="20" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="46" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.33707866">
+        <state line="78" column="19" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1966#1975#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="45" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.8181818">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

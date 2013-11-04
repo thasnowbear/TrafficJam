@@ -35,4 +35,8 @@ public class DrawActivity extends Activity {
 
     }
 
+    public void RestartLevel(View view){
+        d.restart();
+    }
+
 }

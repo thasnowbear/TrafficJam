@@ -75,6 +75,10 @@ public class DrawView extends View {
         }
     }
 
+    void restart(){
+        getLevel();
+    }
+
     void next() {
         if (level < 40) {
             level++;

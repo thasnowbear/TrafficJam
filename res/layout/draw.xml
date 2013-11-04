@@ -18,13 +18,19 @@
                 android:layout_height="wrap_content"
                 android:text="Previous Level"
                 android:onClick="PreviousLevel"
-                android:id="@+id/button1" android:layout_gravity="center"/>
+                android:id="@+id/button1" android:layout_gravity="center" android:textSize="12dp"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Next Level"
                 android:onClick="NextLevel"
-                android:id="@+id/button" android:layout_gravity="center"/>
+                android:id="@+id/button" android:layout_gravity="center" android:textSize="12dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restart"
+                android:onClick="RestartLevel"
+                android:id="@+id/button2" android:layout_gravity="center" android:textSize="12dp"/>
     </TableRow>
 
 </LinearLayout>
