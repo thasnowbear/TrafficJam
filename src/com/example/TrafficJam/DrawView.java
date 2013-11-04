@@ -47,6 +47,10 @@ public class DrawView extends View {
         int color;
     }
 
+    public DrawView(Context context) {
+        super(context);
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
@@ -64,20 +68,34 @@ public class DrawView extends View {
     ArrayList<MyShape> mShapes = new ArrayList<MyShape>();
     MyShape mMovingShape = null;
 
-    void getLevel(){
+    void previous() {
+        if (level != 0) {
+            level--;
+            getLevel();
+        }
+    }
+
+    void next() {
+        if (level < 40) {
+            level++;
+            getLevel();
+        }
+    }
+
+    void getLevel() {
+        mShapes.clear();
+        invalidate();
         Puzzle p = new Puzzle();
-            p.LoadPuzzles();
+        p.LoadPuzzles();
         Puzzle currentlvl = p.puzzles.get(level);
         String setup = currentlvl.getSetup();
         String[] shapes = setup.split(",");
-        mShapes.add(new MyShape(Color.RED, setup.charAt(1),Character.getNumericValue(setup.charAt(3)),Character.getNumericValue(setup.charAt(5)),Character.getNumericValue(setup.charAt(7))));
-        for(int i = 1; i < shapes.length; ++i){
-            MyShape m = new MyShape(Color.BLUE,shapes[i].charAt(2),Character.getNumericValue(shapes[i].charAt(4)),Character.getNumericValue(shapes[i].charAt(6)),Character.getNumericValue(shapes[i].charAt(8)));
-            System.out.println(i);
-            System.out.println(shapes[i]);
+        mShapes.add(new MyShape(Color.RED, setup.charAt(1), Character.getNumericValue(setup.charAt(3)), Character.getNumericValue(setup.charAt(5)), Character.getNumericValue(setup.charAt(7))));
+        for (int i = 1; i < shapes.length; ++i) {
+            MyShape m = new MyShape(Color.BLUE, shapes[i].charAt(2), Character.getNumericValue(shapes[i].charAt(4)), Character.getNumericValue(shapes[i].charAt(6)), Character.getNumericValue(shapes[i].charAt(8)));
             mShapes.add(m);
-
         }
+        invalidate();
     }
 
     public DrawView(Context context, AttributeSet attrs) {
@@ -90,8 +108,8 @@ public class DrawView extends View {
         for (MyShape ms : mShapes) {
             mPaint.setColor(ms.color);
             ms.makeRect(m_cellWidth, m_cellHeight);
-            if(ms.rect != null)
-            canvas.drawRect(ms.rect, mPaint);
+            if (ms.rect != null)
+                canvas.drawRect(ms.rect, mPaint);
         }
     }
 
@@ -106,13 +124,9 @@ public class DrawView extends View {
             case MotionEvent.ACTION_UP:
                 if (mMovingShape != null) {
                     if (mMovingShape.color == Color.RED)
-                        if (mMovingShape.rect.right == getHeight()){
-                            mShapes = new ArrayList<MyShape>();
-                            invalidate();
+                        if (mMovingShape.rect.right == getHeight()) {
                             Toast.makeText(getContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
-                            level++;
-                            getLevel();
-
+                            next();
                         }
 
                     mMovingShape = null;
@@ -179,9 +193,9 @@ public class DrawView extends View {
 
     private MyShape findShape(int x, int y) {
         for (MyShape ms : mShapes) {
-                if (ms.rect.contains(x, y)) {
-                    return ms;
-                }
+            if (ms.rect.contains(x, y)) {
+                return ms;
+            }
         }
         return null;
     }
