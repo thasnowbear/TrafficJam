@@ -20,19 +20,28 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class DrawView extends View {
-
-    char[][] m_board = new char[6][6];
+    public int level;
     private int m_cellWidth;
     private int m_cellHeight;
-    private class MyShape{
-        private MyShape(Rect rect, int color, char direction) {
-            this.rect = rect;
+
+    private class MyShape {
+
+        private MyShape(int color, char direction, int colum, int row, int length) {
             this.color = color;
             this.direction = direction;
-
+            this.colum = colum;
+            this.row = row;
+            this.length = length;
         }
 
+        private void makeRect(int width, int height) {
+            if (direction == 'H')
+                this.rect = new Rect(colum * width, row * height, colum * width + width * length, row * height + height);
+            if (direction == 'V')
+                this.rect = new Rect(colum * width, row * height, colum * width + width, row * height + height * length);
+        }
 
+        int colum, row, length;
         char direction;
         Rect rect;
         int color;
@@ -55,70 +64,105 @@ public class DrawView extends View {
     ArrayList<MyShape> mShapes = new ArrayList<MyShape>();
     MyShape mMovingShape = null;
 
+    void getLevel(){
+        Puzzle p = new Puzzle();
+            p.LoadPuzzles();
+        Puzzle currentlvl = p.puzzles.get(level);
+        String setup = currentlvl.getSetup();
+        String[] shapes = setup.split(",");
+        mShapes.add(new MyShape(Color.RED, setup.charAt(1),Character.getNumericValue(setup.charAt(3)),Character.getNumericValue(setup.charAt(5)),Character.getNumericValue(setup.charAt(7))));
+        for(int i = 1; i < shapes.length; ++i){
+            MyShape m = new MyShape(Color.BLUE,shapes[i].charAt(2),Character.getNumericValue(shapes[i].charAt(4)),Character.getNumericValue(shapes[i].charAt(6)),Character.getNumericValue(shapes[i].charAt(8)));
+            System.out.println(i);
+            System.out.println(shapes[i]);
+            mShapes.add(m);
+
+        }
+    }
+
     public DrawView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-
-        mShapes.add(new MyShape(new Rect(0,100,100,150) , Color.RED, 'V'));
-        mShapes.add(new MyShape(new Rect(160,50,210,150), Color.BLUE, 'H'));
-        mShapes.add(new MyShape(new Rect(220,80,270,180) , Color.BLUE, 'H'));
-        mShapes.add(new MyShape(new Rect(200,200,300,250), Color.BLUE, 'V'));
+        getLevel();
     }
 
-    protected void onDraw(Canvas canvas){
-        for(MyShape ms: mShapes){
+    protected void onDraw(Canvas canvas) {
+        for (MyShape ms : mShapes) {
             mPaint.setColor(ms.color);
+            ms.makeRect(m_cellWidth, m_cellHeight);
+            if(ms.rect != null)
             canvas.drawRect(ms.rect, mPaint);
         }
     }
 
 
-    public boolean onTouchEvent(MotionEvent event){
-
-        int x =(int) event.getX();
-        int y =(int) event.getY();
-        switch( event.getAction()){
+    public boolean onTouchEvent(MotionEvent event) {
+        int x = (int) event.getX();
+        int y = (int) event.getY();
+        switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                mMovingShape = findShape(x,y);
+                mMovingShape = findShape(x, y);
                 break;
             case MotionEvent.ACTION_UP:
-                if(mMovingShape != null){
-                    if(mMovingShape.color == Color.RED)
-                        if(mMovingShape.rect.right == getHeight())
+                if (mMovingShape != null) {
+                    if (mMovingShape.color == Color.RED)
+                        if (mMovingShape.rect.right == getHeight()){
+                            mShapes = new ArrayList<MyShape>();
+                            invalidate();
                             Toast.makeText(getContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
+                            level++;
+                            getLevel();
+
+                        }
 
                     mMovingShape = null;
                 }
                 break;
             case MotionEvent.ACTION_MOVE:
-                if(mMovingShape != null){
+                if (mMovingShape != null) {
                     boolean intersect = false;
-                    y = Math.min(y, getHeight() - mMovingShape.rect.height());
-                    x = Math.min(x, getWidth() - mMovingShape.rect.width());
-                    if(mMovingShape.direction == 'V'){
-                        for(MyShape ms: mShapes){
-                        if(mMovingShape.rect.intersect(ms.rect) && mMovingShape.rect != ms.rect){
-                            intersect = true;
-                            mMovingShape.rect.offsetTo(mMovingShape.rect.left - 101,mMovingShape.rect.top);
-                            mMovingShape.rect.right = mMovingShape.rect.left + 100;
-                            System.out.println(mMovingShape.rect.width());
-                            invalidate();
+                    y = Math.max(0, Math.min(y, getHeight() - mMovingShape.rect.height()));
+                    x = Math.max(0, Math.min(x, getWidth() - mMovingShape.rect.width()));
+                    if (mMovingShape.direction == 'V') {
+                        boolean above = false;
+                        boolean below = false;
+                        if (findShape(mMovingShape.colum * m_cellWidth, (mMovingShape.row + mMovingShape.length) * m_cellHeight) != null)
+                            below = true;
+                        if (findShape(mMovingShape.colum * m_cellWidth, (mMovingShape.row - 1) * m_cellHeight) != null) {
+                            above = true;
                         }
-                    }
-                    if(!intersect)
-                    mMovingShape.rect.offsetTo(x,mMovingShape.rect.top);
-                    }
-                    if(mMovingShape.direction == 'H'){
-                        for(MyShape ms: mShapes){
-                            if(mMovingShape.rect.intersect(ms.rect) && mMovingShape.rect != ms.rect){
-                                intersect = true;
-                            }
+                        if (above && below) {
+                            // Nothing to do Block is stuck
+                        } else if (above)
+                            mMovingShape.row = Math.max(yToRow(y), mMovingShape.row);
+                        else if (below) {
+                            mMovingShape.row = Math.min(yToRow(y), mMovingShape.row);
+                        } else {
+                            mMovingShape.row = yToRow(y);
                         }
-                            if(!intersect)
-                                mMovingShape.rect.offsetTo(mMovingShape.rect.left,y);
-                    }
-                    if(!intersect)
+
                         invalidate();
+                    }
+                    if (mMovingShape.direction == 'H') {
+                        boolean left = false;
+                        boolean right = false;
+                        if (findShape((mMovingShape.colum - 1) * m_cellWidth, mMovingShape.row * m_cellHeight) != null) {
+                            left = true;
+                        }
+                        if (findShape((mMovingShape.colum + mMovingShape.length) * m_cellWidth, mMovingShape.row * m_cellHeight) != null) {
+                            right = true;
+                        }
+                        if (left && right) {
+                            // Nothing to do Block is stuck
+                        } else if (left)
+                            mMovingShape.colum = Math.max(xToCol(x), mMovingShape.colum);
+                        else if (right) {
+                            mMovingShape.colum = Math.min(xToCol(x), mMovingShape.colum);
+                        } else {
+                            mMovingShape.colum = xToCol(x);
+                        }
+                        invalidate();
+                    }
                 }
                 break;
         }
@@ -133,15 +177,14 @@ public class DrawView extends View {
         return y / m_cellHeight;
     }
 
-    private MyShape findShape(int x, int y){
-        for(MyShape ms: mShapes){
-            if(ms.rect.contains(x,y)){
-                return ms;
-            }
+    private MyShape findShape(int x, int y) {
+        for (MyShape ms : mShapes) {
+                if (ms.rect.contains(x, y)) {
+                    return ms;
+                }
         }
         return null;
     }
-
 
 
 }
