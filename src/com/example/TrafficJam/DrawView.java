@@ -102,7 +102,7 @@ public class DrawView extends View {
     }
 
     void next() {
-        if (level < 40) {
+        if (level < 39) {
             level++;
             getLevel();
         }
