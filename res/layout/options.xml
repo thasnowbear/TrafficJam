@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-</LinearLayout>
+<GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Difficulty:"
+            android:id="@+id/textView" android:layout_row="0" android:layout_column="0"
+            android:layout_marginRight="20dp"/>
+    <RadioGroup
+            android:id="@+id/diff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_row="0" android:layout_column="1">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hard"
+                android:onClick="Hard"
+                android:id="@+id/radioButton2" android:layout_gravity="left|center_vertical" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:onClick="Medium"
+                android:id="@+id/radioButton1" android:layout_gravity="left|center_vertical" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy"
+                android:onClick="Easy"
+                android:id="@+id/radioButton" android:layout_gravity="left|center_vertical" android:checked="true"/>
+    </RadioGroup>
+</GridLayout>

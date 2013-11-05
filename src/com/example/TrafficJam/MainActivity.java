@@ -22,6 +22,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
     Puzzle m_puzzle;
+    int difficulty;
     /**
      * Called when the activity is first created.
      */
