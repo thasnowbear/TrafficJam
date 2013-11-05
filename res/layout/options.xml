@@ -3,33 +3,55 @@
 <GridLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Color Difficulty:"
-            android:id="@+id/textView" android:layout_row="0" android:layout_column="0"
-            android:layout_marginRight="20dp"/>
     <RadioGroup
             android:id="@+id/diff"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_row="0" android:layout_column="1">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color Difficulty"
+                android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp" android:layout_marginTop="20dp"/>
         <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hard"
                 android:onClick="Hard"
-                android:id="@+id/radioButton2" android:layout_gravity="left|center_vertical" android:checked="false"/>
+                android:id="@+id/radioButton2" android:layout_gravity="left|center_vertical" android:checked="false"
+                android:layout_marginLeft="20dp"/>
         <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Medium"
                 android:onClick="Medium"
-                android:id="@+id/radioButton1" android:layout_gravity="left|center_vertical" android:checked="false"/>
+                android:id="@+id/radioButton1" android:layout_gravity="left|center_vertical" android:checked="false"
+                android:layout_marginLeft="20dp"/>
         <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Easy"
                 android:onClick="Easy"
-                android:id="@+id/radioButton" android:layout_gravity="left|center_vertical" android:checked="true"/>
+                android:id="@+id/radioButton" android:layout_gravity="left|center_vertical" android:checked="true"
+                android:layout_marginLeft="20dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Preferences"
+                android:id="@+id/button" android:layout_gravity="center" android:layout_marginTop="50dp"
+                android:onClick="ClearPref"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Play:"
+                android:id="@+id/textView1" android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="50dp" android:layout_marginLeft="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Goal of the game is to get the red block to the far right. Simply press and hold a block you wish to move and drag it across the screen, release to let it be where you let go. Blocks will collide so you must move other blocks out of the way."
+                android:id="@+id/textView2" android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:lines="7"
+                android:layout_marginRight="20dp"/>
     </RadioGroup>
 </GridLayout>

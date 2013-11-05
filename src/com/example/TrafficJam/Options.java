@@ -28,6 +28,11 @@ public class Options extends Activity {
         setContentView(R.layout.options);
     }
 
+    public void ClearPref(View view){
+        SharedPreferences preferences = getSharedPreferences("com.example.TrafficJam", Context.MODE_PRIVATE);
+        preferences.edit().clear().commit();
+    }
+
     public void Hard(View view){
         diff = 2;
         prefs.edit().putInt("difficulty", diff).commit();

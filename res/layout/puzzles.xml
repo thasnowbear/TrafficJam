@@ -1,8 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-</LinearLayout>
+<GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/one" android:layout_row="0"
+               android:layout_column="0" android:layout_marginTop="20dp" android:layout_marginLeft="7dp"
+               android:tag="1"
+               android:onClick="onClick" android:baseline="1dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView1"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/two" android:layout_row="0"
+               android:layout_column="1" android:layout_marginTop="20dp" android:onClick="onClick"
+               android:tag="2"
+               android:baseline="2dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView2"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/three" android:layout_row="0"
+               android:tag="3"
+               android:layout_column="2" android:layout_marginTop="20dp" android:onClick="onClick"
+               android:baseline="3dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView3"
+               android:tag="4"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/four" android:layout_row="0"
+               android:layout_column="3" android:layout_marginTop="20dp" android:onClick="onClick"
+               android:baseline="4dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView4"
+               android:tag="5"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/five" android:layout_row="0"
+               android:layout_column="4" android:layout_marginTop="20dp" android:onClick="onClick"
+               android:baseline="5dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView5"
+               android:tag="6"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/six" android:layout_row="0"
+               android:layout_column="5" android:layout_marginTop="20dp" android:focusableInTouchMode="false"
+               android:onClick="onClick" android:baseline="6dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView6"
+               android:tag="7"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/seven" android:layout_row="1"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:onClick="onClick"
+               android:baseline="7dp"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView7"
+               android:tag="8"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/eight" android:layout_row="1"
+               android:layout_column="1" android:baseline="8dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView8"
+               android:tag="9"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/nine" android:layout_row="1"
+               android:layout_column="2" android:baseline="9dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView9"
+               android:tag="10"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/ten" android:layout_row="1"
+               android:layout_column="3" android:baseline="10dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView10"
+               android:tag="11"
+               android:layout_gravity="center_horizontal|top" android:src="@drawable/elven" android:layout_row="1"
+               android:layout_column="4" android:baseline="11dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView11"
+               android:tag="12"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/twelve" android:layout_row="1"
+               android:layout_column="5" android:baseline="12dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView12"
+               android:tag="13"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/thirtheen" android:layout_row="2"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:baseline="13dp"
+               android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView13"
+               android:tag="14"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/fourteen" android:layout_row="2"
+               android:layout_column="1" android:baseline="14dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView14"
+               android:tag="15"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/fifteen" android:layout_row="2"
+               android:layout_column="2" android:baseline="15dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView15"
+               android:tag="16"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/sixteen" android:layout_row="2"
+               android:layout_column="3" android:baseline="16dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView16"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/seventeen" android:layout_row="2"
+               android:tag="17"
+               android:layout_column="4" android:baseline="17dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView17"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/eighteen" android:layout_row="2"
+               android:tag="18"
+               android:layout_column="5" android:baseline="18dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView18"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/nineteen" android:layout_row="3"
+               android:tag="19"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:baseline="19dp"
+               android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView19"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/tweenty" android:layout_row="3"
+               android:tag="20"
+               android:layout_column="1" android:baseline="20dp" android:cropToPadding="true"
+               android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView20"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="3"
+               android:tag="21"
+               android:layout_column="2" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView21"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="3"
+               android:tag="22"
+               android:layout_column="3" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView22"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="3"
+               android:tag="23"
+               android:layout_column="4" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView23"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="3"
+               android:tag="24"
+               android:layout_column="5" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView24"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="25"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView25"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="26"
+               android:layout_column="1" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView26"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="27"
+               android:layout_column="2" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView27"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="28"
+               android:layout_column="3" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView28"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="29"
+               android:layout_column="4" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView29"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="4"
+               android:tag="30"
+               android:layout_column="5" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView30"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="31"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView31"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="32"
+               android:layout_column="1" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView32"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="33"
+               android:layout_column="2" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView33"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="34"
+               android:layout_column="3" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView34"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="35"
+               android:layout_column="4" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView35"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="5"
+               android:tag="36"
+               android:layout_column="5" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView36"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="6"
+               android:tag="37"
+               android:layout_column="0" android:layout_marginLeft="7dp" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView37"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="6"
+               android:tag="38"
+               android:layout_column="1" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView38"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="6"
+               android:tag="39"
+               android:layout_column="2" android:onClick="onClick"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:id="@+id/imageView39"
+               android:layout_gravity="center_horizontal|left|top" android:src="@drawable/two" android:layout_row="6"
+               android:tag="40"
+               android:layout_column="3" android:onClick="onClick"/>
+</GridLayout>

@@ -21,6 +21,7 @@ import java.util.Observer;
 public class DrawActivity extends Activity {
     SharedPreferences prefs;
     private DrawView d;
+    int level;
     int diff;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,24 +29,41 @@ public class DrawActivity extends Activity {
         prefs = this.getSharedPreferences(
                 "com.example.TrafficJam", Context.MODE_PRIVATE);
         d = (DrawView) findViewById(R.id.drawview);
+        level = prefs.getInt("level", 0);
         diff = prefs.getInt("difficulty", 0);
         //TODO send in diff without app breaking
         d.setDiff(diff);
-
+        d.setLevel(level);
+        d.restart();
+        Update();
     }
 
 
 
     public void NextLevel(View view){
         d.next();
+        level = d.getlevel();
+        prefs.edit().putInt("level", level).commit();
+        Update();
     }
 
     public void PreviousLevel(View view){
         d.previous();
+        level = d.getlevel();
+        prefs.edit().putInt("level", level).commit();
+        Update();
     }
 
     public void RestartLevel(View view){
         d.restart();
+        Update();
+    }
+
+    public void Update(){
+        String[] s = d.getSolved();
+        for(int i = 0; i < s.length; i++){
+            prefs.edit().putString(i+"",s[i]);
+        }
     }
 
 }

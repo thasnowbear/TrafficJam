@@ -29,30 +29,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" name="Default" comment="Added alot of stuff">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eight.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eighteen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eighteens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eights.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/elven.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/elvens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fifteen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fifteens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/five.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fives.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/four.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fours.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fourteen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fourteens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nine.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nines.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nineteen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nineteens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ones.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seven.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sevens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seventeen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seventeens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/six.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixteen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixteens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ten.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtheen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtheens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/threes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweenty.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweentys.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twelve.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twelves.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twos.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/draw.xml" afterPath="$PROJECT_DIR$/res/layout/draw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/options.xml" afterPath="$PROJECT_DIR$/res/layout/options.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/puzzles.xml" afterPath="$PROJECT_DIR$/res/layout/puzzles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DrawShapes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383631073242" ignored="false" />
+    <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383652155716" ignored="false" />
     <file path="/main.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383613052333" ignored="false" />
     <file path="/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383615613031" ignored="false" />
-    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383631690656" ignored="false" />
-    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383632973671" ignored="false" />
+    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662080482" ignored="false" />
+    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383661376904" ignored="false" />
     <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573857851" ignored="false" />
-    <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/BoardView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383307755857" ignored="false" />
+    <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/BoardView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383652714489" ignored="false" />
     <file path="/Parser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383524073683" ignored="false" />
     <file path="/XMLParser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383521246449" ignored="false" />
     <file path="/fragment.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383601134116" ignored="false" />
     <file path="/Puzzle.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383563053801" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383569141210" ignored="false" />
-    <file path="/Puzzles.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383612544808" ignored="false" />
-    <file path="/Options.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383618406120" ignored="false" />
+    <file path="/Puzzles.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662352599" ignored="false" />
+    <file path="/Options.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383655829513" ignored="false" />
     <file path="/strings.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383616058895" ignored="false" />
     <file path="/options.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383615490394" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/gen/com/example/TicTacToe/BuildConfig.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383619796517" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestDB/src/com/example/TestDB/StudentsActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383633639126" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestDB/src/com/example/TestDB/StudentsAdapter.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383633639126" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestDB/src/com/example/TestDB/StudentActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383633753844" ignored="false" />
+    <file path="/puzzles.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383660329672" ignored="false" />
+    <file path="/PuzzleView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383653103925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,16 +170,25 @@
       <file leaf-file-name="DrawActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0">
+            <state line="31" column="33" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DrawView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.05420054">
+            <state line="43" column="33" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Puzzles.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="20" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7304582">
               <folding />
             </state>
           </provider>
@@ -140,16 +197,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="5" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Puzzles.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="40" column="30" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,37 +209,7 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="62" selection-end="64" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/options.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="32" column="36" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Options.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+            <state line="173" column="30" selection-start="14054" selection-end="14054" vertical-scroll-proportion="-6.44">
               <folding />
             </state>
           </provider>
@@ -204,6 +222,15 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state line="28" column="16" selection-start="1369" selection-end="1371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Options.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="57" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,22 +254,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/StackOverflowXmlParser.java" />
-        <option value="$USER_HOME$/AppData/Local/Temp/NetworkActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/XMLParser.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java" />
-        <option value="$PROJECT_DIR$/res/layout/draw.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" />
-        <option value="$PROJECT_DIR$/res/layout/puzzles.xml" />
         <option value="$PROJECT_DIR$/res/layout/Options.xml" />
-        <option value="$PROJECT_DIR$/res/layout/options.xml" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" />
-        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/options.xml" />
+        <option value="$PROJECT_DIR$/res/layout/draw.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/PuzzleView.java" />
+        <option value="$USER_HOME$/.IntelliJIdea12/system/compile-server/trafficjam_8185e25a/targets/java-production/TrafficJam/android/generated_sources/aapt/com/example/TrafficJam/R.java" />
+        <option value="$PROJECT_DIR$/res/layout/puzzles.xml" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" />
       </list>
     </option>
   </component>
@@ -250,7 +277,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1304" />
+    <option name="x" value="3" />
+    <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -281,8 +309,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,11 +441,11 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -428,11 +456,11 @@
       <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam\res\drawable-hdpi" />
       <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam\res\xml" />
       <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam" />
       <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam\res\values" />
       <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam\res" />
-      <recent name="C:\Users\Notandi\Desktop\TTT\TrafficJam\src\com\example\TrafficJam" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.TrafficJam">
@@ -468,6 +496,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -494,19 +535,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -653,14 +681,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1304" height="744" extended-state="0" />
+    <frame x="3" y="0" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3647343" sideWeight="0.6974359" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3647343" sideWeight="0.6974359" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36561742" sideWeight="0.6786325" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36400324" sideWeight="0.6786325" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958478" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6735043" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6735043" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,18 +700,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32136753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32136753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591414" sideWeight="0.6704" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14166667" sideWeight="0.6974359" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3025641" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13962874" sideWeight="0.6786325" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3008547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958478" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -753,59 +781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-18/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7383" column="0" selection-start="286396" selection-end="286396" vertical-scroll-proportion="0.33152175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-18/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2205" column="47" selection-start="83895" selection-end="83895" vertical-scroll-proportion="0.05978261" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/challenge_classic40.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="99" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-6.62">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="107" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/puzzles.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="62" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -820,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/options.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-18/android/content/SharedPreferences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="299" column="7" selection-start="12344" selection-end="12344" vertical-scroll-proportion="0.89528793">
@@ -837,16 +802,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/draw.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+        <state line="8" column="33" selection-start="365" selection-end="365" vertical-scroll-proportion="-3.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/options.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="34" column="36" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/eight.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/one.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/compile-server/trafficjam_8185e25a/targets/java-production/TrafficJam/android/generated_sources/aapt/com/example/TrafficJam/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="5" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+        <state line="74" column="47" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.69002694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/puzzles.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="173" column="30" selection-start="14054" selection-end="14054" vertical-scroll-proportion="-6.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-18/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="19" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.33153638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="33" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="33" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="57" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -861,16 +887,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0">
+        <state line="40" column="30" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.05420054">
+        <state line="29" column="20" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7304582">
           <folding />
         </state>
       </provider>

@@ -2,10 +2,7 @@ package com.example.TrafficJam;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.Rect;
+import android.graphics.*;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -21,11 +18,20 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class DrawView extends View {
+    public String[] solved = new String[40];
+
     public int level;
     private int m_cellWidth;
     private int m_cellHeight;
     private int diff;
-    
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public int getlevel(){
+        return level;
+    }
 
     public int getDiff() {
         return diff;
@@ -33,6 +39,10 @@ public class DrawView extends View {
 
     public void setDiff(int diff) {
         this.diff = diff;
+    }
+
+    public String[] getSolved() {
+        return solved;
     }
 
     private class MyShape {
@@ -75,6 +85,7 @@ public class DrawView extends View {
         m_cellWidth = xNew / 6;
     }
 
+
     Paint mPaint = new Paint();
     ArrayList<MyShape> mShapes = new ArrayList<MyShape>();
     MyShape mMovingShape = null;
@@ -107,8 +118,6 @@ public class DrawView extends View {
         String[] shapes = setup.split(",");
         mShapes.add(new MyShape(Color.RED, setup.charAt(1), Character.getNumericValue(setup.charAt(3)), Character.getNumericValue(setup.charAt(5)), Character.getNumericValue(setup.charAt(7))));
         for (int i = 1; i < shapes.length; ++i) {
-            System.out.println(i);
-            System.out.println(getDiff());
             int rad = 0;
             if(getDiff() == 0)
                 rad = i%6;
@@ -125,7 +134,6 @@ public class DrawView extends View {
 
     public DrawView(Context context, AttributeSet attrs) {
         super(context, attrs);
-
         getLevel();
     }
 
@@ -133,6 +141,7 @@ public class DrawView extends View {
         for (MyShape ms : mShapes) {
             mPaint.setColor(ms.color);
             ms.makeRect(m_cellWidth, m_cellHeight);
+
 
             if (ms.rect != null)
                 canvas.drawRect(ms.rect, mPaint);
@@ -152,6 +161,7 @@ public class DrawView extends View {
                     if (mMovingShape.color == Color.RED)
                         if (mMovingShape.rect.right == getHeight()) {
                             Toast.makeText(getContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
+                            solved[level] = "Y";
                             next();
                         }
 
