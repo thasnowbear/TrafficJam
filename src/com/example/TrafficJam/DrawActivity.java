@@ -35,7 +35,6 @@ public class DrawActivity extends Activity {
         d.setDiff(diff);
         d.setLevel(level);
         d.restart();
-        Update();
     }
 
 
@@ -63,6 +62,7 @@ public class DrawActivity extends Activity {
         String[] s = d.getSolved();
         for(int i = 0; i < s.length; i++){
             prefs.edit().putString(i+"",s[i]);
+            System.out.println("UPDATE :  "+ i + "  :   " + s[i]);
         }
     }
 

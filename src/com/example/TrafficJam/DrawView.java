@@ -162,6 +162,7 @@ public class DrawView extends View {
                         if (mMovingShape.rect.right == getHeight()) {
                             Toast.makeText(getContext(), "Puzzle Solved!", Toast.LENGTH_LONG).show();
                             solved[level] = "Y";
+
                             next();
                         }
 

@@ -29,51 +29,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" name="Default" comment="Added alot of stuff">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eight.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eighteen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eighteens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eights.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/elven.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/elvens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fifteen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fifteens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/five.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fives.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/four.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fours.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fourteen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fourteens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nine.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nines.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nineteen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/nineteens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ones.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seven.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sevens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seventeen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/seventeens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/six.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixteen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sixteens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ten.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtheen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtheens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/three.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/threes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweenty.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweentys.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twelve.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twelves.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/two.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fourty.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirty.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtyeight.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtyfive.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtyfour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtynine.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtyone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtyseven.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtysix.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtythree.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thirtytwo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweentynine.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tweentyone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentyeight.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentyfive.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentyfour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentyseven.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentysix.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentythree.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/twentytwo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" afterPath="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/draw.xml" afterPath="$PROJECT_DIR$/res/layout/draw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/options.xml" afterPath="$PROJECT_DIR$/res/layout/options.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/puzzles.xml" afterPath="$PROJECT_DIR$/res/layout/puzzles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -82,8 +60,8 @@
     <file path="/Dummy.txt" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383652155716" ignored="false" />
     <file path="/main.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383613052333" ignored="false" />
     <file path="/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383615613031" ignored="false" />
-    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662080482" ignored="false" />
-    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383661376904" ignored="false" />
+    <file path="/DrawActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662501531" ignored="false" />
+    <file path="/DrawView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662628991" ignored="false" />
     <file path="/draw.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383573857851" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/BoardView.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383652714489" ignored="false" />
     <file path="/Parser.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383524073683" ignored="false" />
@@ -91,7 +69,7 @@
     <file path="/fragment.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383601134116" ignored="false" />
     <file path="/Puzzle.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383563053801" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToe/src/com/example/TicTacToe/MainActivity.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383569141210" ignored="false" />
-    <file path="/Puzzles.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383662352599" ignored="false" />
+    <file path="/Puzzles.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383663123278" ignored="false" />
     <file path="/Options.java" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383655829513" ignored="false" />
     <file path="/strings.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383616058895" ignored="false" />
     <file path="/options.xml" changelist="784e3b92-6e25-44b2-a1d8-e7f847b2d77f" time="1383615490394" ignored="false" />
@@ -170,7 +148,7 @@
       <file leaf-file-name="DrawActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="33" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+            <state line="36" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,16 +157,16 @@
       <file leaf-file-name="DrawView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="33" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.8">
+            <state line="164" column="0" selection-start="4726" selection-end="4726" vertical-scroll-proportion="-12.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Puzzles.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Puzzles.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7304582">
+            <state line="24" column="5" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,13 +181,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="puzzles.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="puzzles.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/puzzles.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="173" column="30" selection-start="14054" selection-end="14054" vertical-scroll-proportion="-6.44">
+            <state line="173" column="30" selection-start="14188" selection-end="14188" vertical-scroll-proportion="-6.44">
               <folding />
             </state>
           </provider>
@@ -266,10 +244,10 @@
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Options.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/PuzzleView.java" />
         <option value="$USER_HOME$/.IntelliJIdea12/system/compile-server/trafficjam_8185e25a/targets/java-production/TrafficJam/android/generated_sources/aapt/com/example/TrafficJam/R.java" />
-        <option value="$PROJECT_DIR$/res/layout/puzzles.xml" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java" />
+        <option value="$PROJECT_DIR$/res/layout/puzzles.xml" />
       </list>
     </option>
   </component>
@@ -682,10 +660,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="0" width="1301" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36561742" sideWeight="0.6786325" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36400324" sideWeight="0.6786325" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36561742" sideWeight="0.6786325" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36400324" sideWeight="0.6786325" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958478" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -839,40 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/puzzles.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="173" column="30" selection-start="14054" selection-end="14054" vertical-scroll-proportion="-6.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-18/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.33153638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="915" selection-end="915" vertical-scroll-proportion="-8.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="57" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -894,9 +841,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="57" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="0" selection-start="4726" selection-end="4726" vertical-scroll-proportion="-12.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/DrawActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TrafficJam/Puzzles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7304582">
+        <state line="24" column="5" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/puzzles.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="173" column="30" selection-start="14188" selection-end="14188" vertical-scroll-proportion="-6.44">
           <folding />
         </state>
       </provider>

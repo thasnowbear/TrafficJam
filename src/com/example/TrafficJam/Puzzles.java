@@ -26,10 +26,12 @@ public class Puzzles extends Activity {
 
     public void onClick(View view){
             Intent intent = new Intent(this, DrawActivity.class);
+                if(prefs.getString("0", "10").equals("Y")){
+            }
+
             int level = Integer.parseInt(view.getTag().toString());
             level--;
             prefs.edit().putInt("level", level).commit();
-        System.out.println(level);
             startActivity(intent);
 
     }
