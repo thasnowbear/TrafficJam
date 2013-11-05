@@ -40,6 +40,16 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+
+    public void buttonLevel(View view){
+        Intent intent = new Intent(this, Puzzles.class);
+        startActivity(intent);
+    }
+
+    public void Options(View view){
+        Intent intent = new Intent(this, Options.class);
+        startActivity(intent);
+    }
 }
 
 
