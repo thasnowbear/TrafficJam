@@ -29,12 +29,8 @@ public class DrawActivity extends Activity {
                 "com.example.TrafficJam", Context.MODE_PRIVATE);
         d = (DrawView) findViewById(R.id.drawview);
         diff = prefs.getInt("difficulty", 0);
-        System.out.println(diff);
-        System.out.println(diff);
-        System.out.println(diff);
-        System.out.println(diff);
         //TODO send in diff without app breaking
-        d.setColors(diff);
+        d.setDiff(diff);
 
     }
 

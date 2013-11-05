@@ -24,14 +24,15 @@ public class DrawView extends View {
     public int level;
     private int m_cellWidth;
     private int m_cellHeight;
-    private int colors;
+    private int diff;
+    
 
-    public int getColors() {
-        return colors;
+    public int getDiff() {
+        return diff;
     }
 
-    public void setColors(int colors) {
-        this.colors = colors;
+    public void setDiff(int diff) {
+        this.diff = diff;
     }
 
     private class MyShape {
@@ -106,12 +107,14 @@ public class DrawView extends View {
         String[] shapes = setup.split(",");
         mShapes.add(new MyShape(Color.RED, setup.charAt(1), Character.getNumericValue(setup.charAt(3)), Character.getNumericValue(setup.charAt(5)), Character.getNumericValue(setup.charAt(7))));
         for (int i = 1; i < shapes.length; ++i) {
+            System.out.println(i);
+            System.out.println(getDiff());
             int rad = 0;
-            if(getColors() == 0)
+            if(getDiff() == 0)
                 rad = i%6;
-            if(getColors() == 1)
+            if(getDiff() == 1)
                 rad = i%3;
-            if(getColors() == 2)
+            if(getDiff() == 2)
                 rad = 2;
             int[]  colors= {Color.YELLOW,Color.BLUE,Color.GREEN,Color.CYAN,Color.DKGRAY,Color.GRAY};
             MyShape m = new MyShape(colors[rad], shapes[i].charAt(2), Character.getNumericValue(shapes[i].charAt(4)), Character.getNumericValue(shapes[i].charAt(6)), Character.getNumericValue(shapes[i].charAt(8)));
